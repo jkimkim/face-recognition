@@ -1,0 +1,19 @@
+{
+  "name": "face-recognition",
+  "version": "1.0.0",
+  "description": "face recognition app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkimkim/face-recognition.git"
+  },
+  "author": "john kimiti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkimkim/face-recognition/issues"
+  },
+  "homepage": "https://github.com/jkimkim/face-recognition#readme"
+}
