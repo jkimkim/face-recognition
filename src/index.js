@@ -1,6 +1,3 @@
-// Include CSS
-require("halfmoon/css/halfmoon-variables.min.css");
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-//JS library
-const halfmoon = require("halfmoon");
