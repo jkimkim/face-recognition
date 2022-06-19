@@ -1,7 +1,7 @@
-const video = document.getElementById('video')
+export const video = document.getElementById('video')
 
 //webcam
-const startVideo = () => {
+export const startVideo = () => {
     navigator.getUserMedia({
         video: { }
     },
