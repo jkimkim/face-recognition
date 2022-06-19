@@ -9,24 +9,36 @@
     <title>Document</title>
 </head>
 
-<body class="d-flex h-100 text-center text-white bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
-            <div>
-                <h3 class="float-md-start mb-0">Face Reco</h3>
-                <nav class="nav nav-masthead justify-content-center float-md-end">
-                    <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-                    <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-                </nav>
-            </div>
-        </header>
-
+<body class="text-center text-white bg-dark">
+    <nav class="mb-2 bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand float-md-start mb-0" href="#">
+                <img src="" alt="" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Face Reco
+            </a>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
+                <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
+                <a class="nav-link fw-bold py-1 px-0" href="#"><code>Code</code> </a>
+            </nav>
+        </div>
+    </nav>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"> 
         <main class="px-3">
+            <video id="video" class="border border-secondary" autoplay height="480px" width="800px" muted></video>
+            <div class="card drop-area mb-4">
+                <div class="card-body">
+                    <button type="button" class="btn btn-light">select</button>
+                    <p class="selected">Or drop a file</p>
+                    <input type="file" hidden>
+                </div>
+            </div>
+            
         </main>
 
-        <footer class="mt-auto text-white-50">
-            <p><a href="https://jkimtech.tech" class="text-white">Face Reco</a>, by <a href="#" class="text-white">Us</a>.</p>
+        <footer class="mt-auto text-white-50 sticky-bottom">
+            <p><a href="https://jkimtech.tech" class="text-white">Face Reco</a>, by <a href="#" class="text-white">jkimtech.</p>
         </footer>
     </div>
 </body>
